@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201A52E82074F56A0002BC55 /* ReminderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201A52E72074F56A0002BC55 /* ReminderModel.swift */; };
+		201A52EC2075037D0002BC55 /* TheWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201A52EB2075037D0002BC55 /* TheWord.swift */; };
 		2035FD6A2074D6040097A2E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2035FD692074D6040097A2E6 /* AppDelegate.swift */; };
 		2035FD6C2074D6040097A2E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2035FD6B2074D6040097A2E6 /* ViewController.swift */; };
 		2035FD6F2074D6040097A2E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2035FD6D2074D6040097A2E6 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		2035FD772074D6040097A2E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2035FD752074D6040097A2E6 /* LaunchScreen.storyboard */; };
 		2035FD822074D6040097A2E6 /* WordReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2035FD812074D6040097A2E6 /* WordReminderTests.swift */; };
 		2035FD8D2074D6040097A2E6 /* WordReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2035FD8C2074D6040097A2E6 /* WordReminderUITests.swift */; };
+		20F35DE12074E0CC00845FEB /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F35DE02074E0CC00845FEB /* Word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		201A52E72074F56A0002BC55 /* ReminderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderModel.swift; sourceTree = "<group>"; };
+		201A52EB2075037D0002BC55 /* TheWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWord.swift; sourceTree = "<group>"; };
 		2035FD662074D6040097A2E6 /* WordReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2035FD692074D6040097A2E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2035FD6B2074D6040097A2E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		2035FD882074D6040097A2E6 /* WordReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2035FD8C2074D6040097A2E6 /* WordReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordReminderUITests.swift; sourceTree = "<group>"; };
 		2035FD8E2074D6040097A2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F35DE02074E0CC00845FEB /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 			children = (
 				2035FD692074D6040097A2E6 /* AppDelegate.swift */,
 				2035FD6B2074D6040097A2E6 /* ViewController.swift */,
+				20F35DE02074E0CC00845FEB /* Word.swift */,
+				201A52E72074F56A0002BC55 /* ReminderModel.swift */,
+				201A52EB2075037D0002BC55 /* TheWord.swift */,
 				2035FD6D2074D6040097A2E6 /* Main.storyboard */,
 				2035FD732074D6040097A2E6 /* Assets.xcassets */,
 				2035FD752074D6040097A2E6 /* LaunchScreen.storyboard */,
@@ -263,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2035FD6C2074D6040097A2E6 /* ViewController.swift in Sources */,
+				20F35DE12074E0CC00845FEB /* Word.swift in Sources */,
+				201A52E82074F56A0002BC55 /* ReminderModel.swift in Sources */,
 				2035FD6A2074D6040097A2E6 /* AppDelegate.swift in Sources */,
 				2035FD722074D6040097A2E6 /* WordReminder.xcdatamodeld in Sources */,
+				201A52EC2075037D0002BC55 /* TheWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
